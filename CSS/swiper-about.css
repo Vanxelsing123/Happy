@@ -1,0 +1,67 @@
+.swiper__container {
+    position: relative;
+    height: 100%;
+    margin-bottom: 30px;
+}
+.swiper {
+    width: 670px;
+    height: 330px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+    box-shadow: 4px 4px 7px 0 rgba(202, 202, 202, 0.15);
+    background: #eaf2f7;
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  .slide__container {
+    background-image: url("../IMG/about-us/slaid.png");
+    display: block;
+    background-position: left center;
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slide__text {
+    margin-left: 160px;
+  }
+
+  .slide__text p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #282828;
+  }
+
+  .slide__text span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #909090;
+  }
+
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, -120px);
+    left: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, -80px);
+    right: auto;
+}
+
+.slide__description {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #282828;
+}

@@ -674,7 +674,9 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-
+@media(max-width: 450px) {
+  
+}
 @keyframes ticker {
   0% {
     transform: translateX(0%);
