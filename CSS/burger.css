@@ -1,0 +1,117 @@
+@media only screen and (max-width : 992px) {
+    
+
+    .burger{
+        position: relative;
+        width: 30px;
+        height: 20px;
+        display: none;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        cursor: pointer;
+        
+    }
+    
+    .burger {
+        display: block !important;
+    }
+
+   
+    .burger__line {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 36px;
+        height: 2px;
+        background-color: black;
+        transform: translateY(-50%);
+        transition: opacity 0.3s ease-in-out;
+    }
+    
+    .burger::before {
+        top: 0;
+    }
+    
+    .burger::after {
+        bottom: 0;
+    }
+    
+    .burger--active .burger__line {
+        opacity: 0;
+    }
+    
+    .burger--active::before {
+        top: 50%;
+        transform: rotate(45deg);
+    }
+    
+    .burger--active::after {
+        width: 37px;
+        bottom: auto;
+        top: 50%;
+        transform: rotate(-45deg);
+    }
+    
+    .burger::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 36px;
+        height: 2px;
+        background-color: black;
+        transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, bottom 0.3s ease-in-out;
+    }
+    
+    .burger::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 36px;
+        height: 2px;
+        background-color: black;
+        transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, bottom 0.3s ease-in-out;
+    }
+    
+   
+
+    .header__menu--top {
+        position: fixed;
+        left: 526px;
+        right: 0;
+        top: 80px;
+        overflow-y: auto;
+        z-index: 1000;
+        padding: 25px;
+        width: 60%;
+        height: 100vh;
+        max-width: 420px;
+        margin-right: 0;
+        background-color: white;
+        transform: translateX(250%);
+        transition: transform 0.6s ease-in-out;
+    }
+    
+    .header__menu--visible {
+        transform: none;
+    }
+    
+    .header__item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .page__body {
+        overflow-x: hidden;
+    }
+    
+    .stop-scroll {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .header__menu--top {
+        left: 400px;
+    }
+}

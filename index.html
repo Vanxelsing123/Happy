@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="libs/animate.css">
 		<link rel="stylesheet" href="CSS/style.css">
-		<link rel="stylesheet" href="css/adaptive.css">
+        <link rel="stylesheet" href="CSS/adaptive.css">
 <body>
    <div class="wrapper">
     <header id="header wow slideInLeft" data-wow-duration="2s">
@@ -21,7 +21,7 @@
                 <a href="index.html">
                     <img class="wow slideInLeft" data-wow-duration="1s" src="IMG/Logo.jpg" alt="Logo">
                 </a>
-                <div class="header__menu--top wow slideInRight" data-wow-duration="2s">
+                <div class="header__menu--top ">
                     <ul class="item__top">
                         <li class="menu__top">
                             <a href="#">
@@ -42,6 +42,7 @@
                                 holymolyevent@gmail.com
                             </a>
                         </li>
+                       <div class="menu__top--svg">
                         <li class="menu__top">
                             <a href="#">
                                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,8 +69,13 @@
                                     </svg>                                    
                             </a>
                         </li>
+                       </div>
                     </ul>
+                    
                         <ul class="item__bottom">
+                            <p class="mnu__item--bottom">
+                                Menu
+                            </p>
                             <li class="menu__bottom">
                                 <a href="about.html">
                                     About us
@@ -77,7 +83,7 @@
                             </li>
                             <li class="menu__bottom">
                                 <a href="gallery.html">
-                                    Gallery
+                                    Shop Balloons
                                 </a>
                             </li>
                             <li class="menu__bottom">
@@ -86,32 +92,35 @@
                                 </a>
                             </li>
                             <li class="menu__bottom">
-                                <a href="#">
+                                <a href="rental.html">
                                     Rental
                                 </a>
                             </li>
                             <li class="menu__bottom">
-                                <a href="#">
+                                <a href="seasonal.html">
                                     Seasonal Decor
                                 </a>
                             </li>
                             <li class="menu__bottom">
-                                <a href="#">
+                                <a href="partners.html">
                                     Partners
                                 </a>
                             </li>
                             <li class="menu__bottom">
-                                <a href="#">
+                                <a href="faq.html">
                                     FAQ
                                 </a>
                             </li>
                             <li class="menu__bottom">
-                                <a href="#">
+                                <a href="form.html">
                                     Contact Us
                                 </a>
                             </li>
                         </ul>
                 </div>
+                <button class="burger" stop-scroll aria-label="Открыть меню" aria-expanded="false">
+                    <span class="burger__line"></span>
+                </button>
             </div>
             <div class="header__content--bottom wow slideInLeft" data-wow-duration="1s">
                 <div class="bottom__title">
@@ -167,22 +176,23 @@
 
         <section id="about">
             <div class="container">
+                <h2 class="title__about">
+                    About us
+                </h2>
                 <div class="content__about">
                     <div class="about__left wow slideInLeft">
-                        <h2 class="title__about">
-                            About us
-                        </h2>
+                       
                         <p class="about__description">
                             As a family-owned and operated team of passionate balloon artists based in Bergen County, 
                             New Jersey, we specialize in transforming ordinary events into unforgettable experiences. 
                             Our trendy and artistic balloon decor adds a touch of magic to any occasion, from intimate family 
                             gatherings to lavish celebrations across North Jersey.
                         </p>
-                        <p class="about__description">
+                        <p class="about__description--mission">
                             <b>Our Mission:</b> To infuse joy and excitement into your events through unique, 
                             personalized balloon designs that capture your style and create lasting memories.
                         </p>
-                        <p class="about__description">
+                        <p class="about__description--mission">
                             <b>Our Vision:</b> To be the premier family-run balloon decor company in Bergen County 
                             and the surrounding areas, known for our exceptional service and innovative designs.
                         </p>
@@ -327,6 +337,117 @@
                         </div>
                     </div>
                 </div>
+                <div class="swiper mySwiper-about">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="our__card">
+                        <img src="IMG/our/ImageOur.png" alt="card">
+                        <div class="our__card--text">
+                            <span class="card__title">
+                                Balloon Garland
+                            </span>
+                            <span>
+                                Our eye-catching garlands add a touch of whimsy and elegance to any event. 
+                                Choose from a variety of colors, sizes, and themes to create a personalized statement piece that will wow your guests
+                            </span>
+                            <a href="#">
+                                Shop Now
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.3125 9.5H15.6875" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.625 4.4375L15.6875 9.5L10.625 14.5625" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> 
+                            </a>       
+                        </div>                        
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="our__card">
+                        <img src="IMG/our/ImageOur.png" alt="card">
+                        <div class="our__card--text">
+                            <span class="card__title">
+                                Balloon Garland
+                            </span>
+                            <span>
+                                Our eye-catching garlands add a touch of whimsy and elegance to any event. 
+                                Choose from a variety of colors, sizes, and themes to create a personalized statement piece that will wow your guests
+                            </span>
+                            <a href="#">
+                                Shop Now
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.3125 9.5H15.6875" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.625 4.4375L15.6875 9.5L10.625 14.5625" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> 
+                            </a>       
+                        </div>                        
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="our__card">
+                        <img src="IMG/our/ImageOur.png" alt="card">
+                        <div class="our__card--text">
+                            <span class="card__title">
+                                Balloon Garland
+                            </span>
+                            <span>
+                                Our eye-catching garlands add a touch of whimsy and elegance to any event. 
+                                Choose from a variety of colors, sizes, and themes to create a personalized statement piece that will wow your guests
+                            </span>
+                            <a href="#">
+                                Shop Now
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.3125 9.5H15.6875" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.625 4.4375L15.6875 9.5L10.625 14.5625" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> 
+                            </a>       
+                        </div>                        
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="our__card">
+                        <img src="IMG/our/ImageOur.png" alt="card">
+                        <div class="our__card--text">
+                            <span class="card__title">
+                                Balloon Garland
+                            </span>
+                            <span>
+                                Our eye-catching garlands add a touch of whimsy and elegance to any event. 
+                                Choose from a variety of colors, sizes, and themes to create a personalized statement piece that will wow your guests
+                            </span>
+                            <a href="#">
+                                Shop Now
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.3125 9.5H15.6875" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.625 4.4375L15.6875 9.5L10.625 14.5625" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> 
+                            </a>       
+                        </div>                        
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="our__card">
+                        <img src="IMG/our/ImageOur.png" alt="card">
+                        <div class="our__card--text">
+                            <span class="card__title">
+                                Balloon Garland
+                            </span>
+                            <span>
+                                Our eye-catching garlands add a touch of whimsy and elegance to any event. 
+                                Choose from a variety of colors, sizes, and themes to create a personalized statement piece that will wow your guests
+                            </span>
+                            <a href="#">
+                                Shop Now
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.3125 9.5H15.6875" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.625 4.4375L15.6875 9.5L10.625 14.5625" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> 
+                            </a>       
+                        </div>                        
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
             </div>
         </section>
 
@@ -422,6 +543,20 @@
                             </button>
                           </div>
                         </div>
+                    </div>
+                    <div class="signature__bottom--btn">
+                        <button class="bottom__btn-orange">
+                            Backdrops
+                        </button>
+                        <button class="bottom__btn-grey">
+                            Chairs
+                        </button>
+                        <button class="bottom__btn-orange">
+                            Miscellaneous
+                        </button>
+                        <button class="bottom__btn-grey">
+                            Signage
+                        </button>
                     </div>
                 </div>  
             </div>
@@ -561,6 +696,112 @@
                             </a>
                         </div>
                     </div>
+                    <div class="swiper mySwiper-featured">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                             <div class="featured__card--big">
+                            <div class="card__big--text">
+                                <p class="featured__card--title">
+                                    Graduation Parties
+                                </p>
+                                <p class="featured__card--discription">
+                                    Celebrate Your Success in Style. Mark your academic achievement 
+                                    with unforgettable graduation balloon decor! Our elegant designs, from arches to custom arrangements, elevate your graduation celebration. Contact us today for a personalized quote.
+                                </p>
+                                <a  class="featured__card--btn" href="#">
+                                    Explore more
+                                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.3125 9H15.6875" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M10.625 3.9375L15.6875 9L10.625 14.0625" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                    
+                                </a>
+                            </div>
+                        </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="featured__card--big">
+                                <div class="card__big--text">
+                                    <p class="featured__card--title">
+                                        Graduation Parties
+                                    </p>
+                                    <p class="featured__card--discription">
+                                        Celebrate Your Success in Style. Mark your academic achievement 
+                                        with unforgettable graduation balloon decor! Our elegant designs, from arches to custom arrangements, elevate your graduation celebration. Contact us today for a personalized quote.
+                                    </p>
+                                    <a  class="featured__card--btn" href="#">
+                                        Explore more
+                                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.3125 9H15.6875" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.625 3.9375L15.6875 9L10.625 14.0625" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>                                    
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="featured__card--big">
+                                <div class="card__big--text">
+                                    <p class="featured__card--title">
+                                        Graduation Parties
+                                    </p>
+                                    <p class="featured__card--discription">
+                                        Celebrate Your Success in Style. Mark your academic achievement 
+                                        with unforgettable graduation balloon decor! Our elegant designs, from arches to custom arrangements, elevate your graduation celebration. Contact us today for a personalized quote.
+                                    </p>
+                                    <a  class="featured__card--btn" href="#">
+                                        Explore more
+                                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.3125 9H15.6875" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.625 3.9375L15.6875 9L10.625 14.0625" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>                                    
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="featured__card--big">
+                                <div class="card__big--text">
+                                    <p class="featured__card--title">
+                                        Graduation Parties
+                                    </p>
+                                    <p class="featured__card--discription">
+                                        Celebrate Your Success in Style. Mark your academic achievement 
+                                        with unforgettable graduation balloon decor! Our elegant designs, from arches to custom arrangements, elevate your graduation celebration. Contact us today for a personalized quote.
+                                    </p>
+                                    <a  class="featured__card--btn" href="#">
+                                        Explore more
+                                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.3125 9H15.6875" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.625 3.9375L15.6875 9L10.625 14.0625" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>                                    
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="featured__card--big">
+                                <div class="card__big--text">
+                                    <p class="featured__card--title">
+                                        Graduation Parties
+                                    </p>
+                                    <p class="featured__card--discription">
+                                        Celebrate Your Success in Style. Mark your academic achievement 
+                                        with unforgettable graduation balloon decor! Our elegant designs, from arches to custom arrangements, elevate your graduation celebration. Contact us today for a personalized quote.
+                                    </p>
+                                    <a  class="featured__card--btn" href="#">
+                                        Explore more
+                                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.3125 9H15.6875" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.625 3.9375L15.6875 9L10.625 14.0625" stroke="#F88535" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>                                    
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
                 </div>
             </div>
         </section>
@@ -612,11 +853,11 @@
                     </span>
                 </div>
             </div>
-            <div class="main">
+           <!--  <div class="main">
                 <div class="slider">
                     slaider
                 </div>
-            </div>    
+            </div>     -->
         </section>
 
         <section id="faq">
@@ -714,6 +955,25 @@
                         <img src="IMG/Photo/photo5.png" alt="">
                     </li>
                 </ul>
+                <div class="swiper mySwiper-photo">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="IMG/Photo/photo1.png" alt="">
+                    </div>
+                      <div class="swiper-slide">
+                        <img src="IMG/Photo/photo2.png" alt="">
+                    </div>
+                      <div class="swiper-slide">
+                        <img src="IMG/Photo/photo3.png" alt="">
+                    </div>
+                      <div class="swiper-slide">
+                        <img src="IMG/Photo/photo4.png" alt="">
+                    </div>
+                      <div class="swiper-slide">
+                        <img src="IMG/Photo/photo5.png" alt="">
+                    </div>
+                    </div>
+                  </div>
             </div>
         </section>
     </main>
@@ -728,47 +988,49 @@
                         We are a mobile business, not a retail location. In-person meetings are by appointment only
                     </p>
                 </div>
-                <div class="mnu__footer">
-                    <ul>
-                        <span>Menu</span>
-                        <li>About us</li>
-                        <li>Project Showcase</li>
-                        <li>Rental</li>
-                    </ul>
-                    <ul>
-                        <li>Seasonal Decor</li>
-                        <li>Partners</li>
-                        <li>FAQ</li>
-                    </ul>
-                </div>
-                <div class="contact__footer">
-                    <p>
-                        Contact us
-                    </p>
-                    <span>
-                        Midland Park, Bergen County, New Jersey,  USA 07432
-                    </span>
-                    <a href="#">+1(201)9876660</a>
-                    <a href="#">holymolyevent@gmail.com</a>
-                    <div class="icon__footer">
-                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M26.25 0H3.75C1.68187 0 0 1.68187 0 3.75V26.25C0 28.3181 1.68187 30 3.75 30H26.25C28.3181 30 30 28.3181 30 26.25V3.75C30 1.68187 28.3181 0 26.25 0Z" fill="white" />
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9678 13.293H16.5092V11.3477C16.5092 10.8108 16.9497 10.8613 17.4926 10.8613H18.4761V8.42969H16.5092C15.7267 8.42969 14.9762 8.73712 14.4229 9.28435C13.8696 9.83158 13.5587 10.5738 13.5587 11.3477V13.293H11.5918V15.7247H13.5587V21.0743H16.5092V15.7247H17.9844L18.9678 13.293Z" fill="#282828" />
-                          </svg>
-                          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="30" height="30" rx="5" fill="white"/>
-                            <g clip-path="url(#clip0_704_43186)">
-                            <path d="M21.466 12.3222C21.4355 11.6314 21.3238 11.1565 21.1638 10.745C20.9987 10.3082 20.7448 9.91716 20.412 9.59206C20.0869 9.2619 19.6933 9.00536 19.2615 8.84286C18.8476 8.68284 18.3752 8.57113 17.6845 8.54067C16.9885 8.50764 16.7676 8.5 15.0025 8.5C13.2375 8.5 13.0165 8.50764 12.3232 8.5381C11.6324 8.56855 11.1575 8.68036 10.7461 8.84028C10.3092 9.00536 9.91813 9.25932 9.59303 9.59206C9.26288 9.91716 9.00643 10.3108 8.84383 10.7426C8.68381 11.1565 8.57211 11.6289 8.54165 12.3196C8.50862 13.0156 8.50098 13.2365 8.50098 15.0016C8.50098 16.7666 8.50862 16.9876 8.53907 17.6809C8.56953 18.3717 8.68133 18.8466 8.84135 19.2581C9.00643 19.6949 9.26288 20.086 9.59303 20.4111C9.91813 20.7412 10.3118 20.9978 10.7435 21.1603C11.1575 21.3203 11.6298 21.432 12.3207 21.4625C13.0139 21.493 13.235 21.5005 15 21.5005C16.7651 21.5005 16.9861 21.493 17.6794 21.4625C18.3702 21.432 18.8451 21.3203 19.2565 21.1603C20.1302 20.8225 20.821 20.1317 21.1587 19.2581C21.3187 18.8441 21.4305 18.3717 21.4609 17.6809C21.4914 16.9876 21.499 16.7666 21.499 15.0016C21.499 13.2365 21.4964 13.0156 21.466 12.3222ZM20.2953 17.6301C20.2673 18.265 20.1606 18.6079 20.0717 18.8365C19.8533 19.4028 19.4038 19.8523 18.8374 20.0708C18.6089 20.1597 18.2635 20.2663 17.6311 20.2942C16.9454 20.3248 16.7397 20.3323 15.0051 20.3323C13.2705 20.3323 13.0623 20.3248 12.379 20.2942C11.7441 20.2663 11.4013 20.1597 11.1727 20.0708C10.8908 19.9666 10.6343 19.8015 10.4261 19.5857C10.2102 19.3749 10.0451 19.1209 9.94095 18.839C9.85206 18.6105 9.74541 18.265 9.71754 17.6327C9.68698 16.947 9.67944 16.7412 9.67944 15.0066C9.67944 13.272 9.68698 13.0638 9.71754 12.3806C9.74541 11.7457 9.85206 11.4029 9.94095 11.1743C10.0451 10.8924 10.2102 10.6359 10.4286 10.4276C10.6394 10.2117 10.8933 10.0466 11.1753 9.94255C11.4038 9.85367 11.7493 9.74702 12.3816 9.71904C13.0673 9.68859 13.2731 9.68095 15.0076 9.68095C16.7448 9.68095 16.9504 9.68859 17.6337 9.71904C18.2686 9.74702 18.6114 9.85367 18.84 9.94255C19.1219 10.0466 19.3784 10.2117 19.5866 10.4276C19.8025 10.6384 19.9676 10.8924 20.0717 11.1743C20.1606 11.4029 20.2673 11.7482 20.2953 12.3806C20.3257 13.0664 20.3334 13.272 20.3334 15.0066C20.3334 16.7412 20.3257 16.9444 20.2953 17.6301Z" fill="#282828"/>
-                            <path d="M15.0032 11.6611C13.1595 11.6611 11.6636 13.157 11.6636 15.0008C11.6636 16.8446 13.1595 18.3405 15.0032 18.3405C16.8471 18.3405 18.3429 16.8446 18.3429 15.0008C18.3429 13.157 16.8471 11.6611 15.0032 11.6611ZM15.0032 17.1672C13.8071 17.1672 12.8369 16.197 12.8369 15.0008C12.8369 13.8046 13.8071 12.8344 15.0032 12.8344C16.1995 12.8344 17.1696 13.8046 17.1696 15.0008C17.1696 16.197 16.1995 17.1672 15.0032 17.1672Z" fill="#282828"/>
-                            <path d="M19.2535 11.5297C19.2535 11.9602 18.9044 12.3093 18.4738 12.3093C18.0432 12.3093 17.6941 11.9602 17.6941 11.5297C17.6941 11.099 18.0432 10.75 18.4738 10.75C18.9044 10.75 19.2535 11.099 19.2535 11.5297Z" fill="#282828"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_704_43186">
-                            <rect width="12.998" height="13.0005" fill="white" transform="translate(8.50098 8.5)"/>
-                            </clipPath>
-                            </defs>
-                            </svg>
-                            
+                <div class="content__center--footer">
+                    <div class="mnu__footer">
+                        <ul>
+                            <span>Menu</span>
+                            <li>About us</li>
+                            <li>Project Showcase</li>
+                            <li>Rental</li>
+                        </ul>
+                        <ul>
+                            <li>Seasonal Decor</li>
+                            <li>Partners</li>
+                            <li>FAQ</li>
+                        </ul>
+                    </div>
+                    <div class="contact__footer">
+                        <p>
+                            Contact us
+                        </p>
+                        <span>
+                            Midland Park, Bergen County, New Jersey,  USA 07432
+                        </span>
+                        <a href="#">+1(201)9876660</a>
+                        <a href="#">holymolyevent@gmail.com</a>
+                        <div class="icon__footer">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M26.25 0H3.75C1.68187 0 0 1.68187 0 3.75V26.25C0 28.3181 1.68187 30 3.75 30H26.25C28.3181 30 30 28.3181 30 26.25V3.75C30 1.68187 28.3181 0 26.25 0Z" fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9678 13.293H16.5092V11.3477C16.5092 10.8108 16.9497 10.8613 17.4926 10.8613H18.4761V8.42969H16.5092C15.7267 8.42969 14.9762 8.73712 14.4229 9.28435C13.8696 9.83158 13.5587 10.5738 13.5587 11.3477V13.293H11.5918V15.7247H13.5587V21.0743H16.5092V15.7247H17.9844L18.9678 13.293Z" fill="#282828" />
+                              </svg>
+                              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="30" height="30" rx="5" fill="white"/>
+                                <g clip-path="url(#clip0_704_43186)">
+                                <path d="M21.466 12.3222C21.4355 11.6314 21.3238 11.1565 21.1638 10.745C20.9987 10.3082 20.7448 9.91716 20.412 9.59206C20.0869 9.2619 19.6933 9.00536 19.2615 8.84286C18.8476 8.68284 18.3752 8.57113 17.6845 8.54067C16.9885 8.50764 16.7676 8.5 15.0025 8.5C13.2375 8.5 13.0165 8.50764 12.3232 8.5381C11.6324 8.56855 11.1575 8.68036 10.7461 8.84028C10.3092 9.00536 9.91813 9.25932 9.59303 9.59206C9.26288 9.91716 9.00643 10.3108 8.84383 10.7426C8.68381 11.1565 8.57211 11.6289 8.54165 12.3196C8.50862 13.0156 8.50098 13.2365 8.50098 15.0016C8.50098 16.7666 8.50862 16.9876 8.53907 17.6809C8.56953 18.3717 8.68133 18.8466 8.84135 19.2581C9.00643 19.6949 9.26288 20.086 9.59303 20.4111C9.91813 20.7412 10.3118 20.9978 10.7435 21.1603C11.1575 21.3203 11.6298 21.432 12.3207 21.4625C13.0139 21.493 13.235 21.5005 15 21.5005C16.7651 21.5005 16.9861 21.493 17.6794 21.4625C18.3702 21.432 18.8451 21.3203 19.2565 21.1603C20.1302 20.8225 20.821 20.1317 21.1587 19.2581C21.3187 18.8441 21.4305 18.3717 21.4609 17.6809C21.4914 16.9876 21.499 16.7666 21.499 15.0016C21.499 13.2365 21.4964 13.0156 21.466 12.3222ZM20.2953 17.6301C20.2673 18.265 20.1606 18.6079 20.0717 18.8365C19.8533 19.4028 19.4038 19.8523 18.8374 20.0708C18.6089 20.1597 18.2635 20.2663 17.6311 20.2942C16.9454 20.3248 16.7397 20.3323 15.0051 20.3323C13.2705 20.3323 13.0623 20.3248 12.379 20.2942C11.7441 20.2663 11.4013 20.1597 11.1727 20.0708C10.8908 19.9666 10.6343 19.8015 10.4261 19.5857C10.2102 19.3749 10.0451 19.1209 9.94095 18.839C9.85206 18.6105 9.74541 18.265 9.71754 17.6327C9.68698 16.947 9.67944 16.7412 9.67944 15.0066C9.67944 13.272 9.68698 13.0638 9.71754 12.3806C9.74541 11.7457 9.85206 11.4029 9.94095 11.1743C10.0451 10.8924 10.2102 10.6359 10.4286 10.4276C10.6394 10.2117 10.8933 10.0466 11.1753 9.94255C11.4038 9.85367 11.7493 9.74702 12.3816 9.71904C13.0673 9.68859 13.2731 9.68095 15.0076 9.68095C16.7448 9.68095 16.9504 9.68859 17.6337 9.71904C18.2686 9.74702 18.6114 9.85367 18.84 9.94255C19.1219 10.0466 19.3784 10.2117 19.5866 10.4276C19.8025 10.6384 19.9676 10.8924 20.0717 11.1743C20.1606 11.4029 20.2673 11.7482 20.2953 12.3806C20.3257 13.0664 20.3334 13.272 20.3334 15.0066C20.3334 16.7412 20.3257 16.9444 20.2953 17.6301Z" fill="#282828"/>
+                                <path d="M15.0032 11.6611C13.1595 11.6611 11.6636 13.157 11.6636 15.0008C11.6636 16.8446 13.1595 18.3405 15.0032 18.3405C16.8471 18.3405 18.3429 16.8446 18.3429 15.0008C18.3429 13.157 16.8471 11.6611 15.0032 11.6611ZM15.0032 17.1672C13.8071 17.1672 12.8369 16.197 12.8369 15.0008C12.8369 13.8046 13.8071 12.8344 15.0032 12.8344C16.1995 12.8344 17.1696 13.8046 17.1696 15.0008C17.1696 16.197 16.1995 17.1672 15.0032 17.1672Z" fill="#282828"/>
+                                <path d="M19.2535 11.5297C19.2535 11.9602 18.9044 12.3093 18.4738 12.3093C18.0432 12.3093 17.6941 11.9602 17.6941 11.5297C17.6941 11.099 18.0432 10.75 18.4738 10.75C18.9044 10.75 19.2535 11.099 19.2535 11.5297Z" fill="#282828"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_704_43186">
+                                <rect width="12.998" height="13.0005" fill="white" transform="translate(8.50098 8.5)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                
+                        </div>
                     </div>
                 </div>
                </div>
