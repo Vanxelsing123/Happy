@@ -1,5 +1,5 @@
 @import url("../CSS/burger.css");
-@import url("../CSS/accardion.css");
+
 html {
   box-sizing: border-box;
 }
@@ -835,3 +835,4 @@ a {
 #footer .content__center--footer .footer__content--bottom ul li:last-child {
   margin-right: 0;
 }/*# sourceMappingURL=style.css.map */
+
