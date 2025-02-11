@@ -1,0 +1,22 @@
+@import url("../CSS/burger.css");
+@media only screen and (max-width: 1200px) {
+  /* header */
+  .header__content img {
+    width: 150px;
+  }
+  .header__content .header__menu--top .item__top {
+    padding-left: 150px;
+  }
+  .header__content .header__menu--top .item__bottom .menu__bottom {
+    margin-right: 7px;
+  }
+  .header__content--bottom .bottom__title h1 {
+    font-size: 40px;
+  }
+  .header__content--bottom {
+    display: block;
+  }
+  .header__content--bottom .content__bottom--right {
+    max-width: 740px;
+  }
+}/*# sourceMappingURL=adaptive-form.css.map */

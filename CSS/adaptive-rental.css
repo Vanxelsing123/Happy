@@ -19,11 +19,8 @@
   .header__content--bottom .content__bottom--right {
     max-width: 740px;
   }
-  #filter .content__filter .form-select {
-    padding: 5px 0;
-  }
   #filter .content__filter .form-select select {
-    width: 320px;
+    max-width: 580px;
   }
   #birthdays .content__birthdays {
     display: grid;
@@ -138,6 +135,7 @@
   .container .header__content--bottom .bottom__title h1 {
     font-size: 32px;
     padding-left: 15px;
+    max-width: 373px;
   }
   .container .header__content--bottom .content__bottom--right {
     text-align: center;
@@ -161,6 +159,9 @@
   }
   #filter .content__filter .events__select:last-child {
     margin-bottom: 0;
+  }
+  #filter .content__filter .form-select select {
+    max-width: 265px;
   }
   #birthdays .content__birthdays {
     display: none;
@@ -191,4 +192,4 @@
   #footer .footer__content .footer__content--bottom ul li:last-child {
     margin-bottom: 0;
   }
-}/*# sourceMappingURL=adaptive-gallery.css.map */
+}/*# sourceMappingURL=adaptive-rental.css.map */

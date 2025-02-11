@@ -19,16 +19,8 @@
   .header__content--bottom .content__bottom--right {
     max-width: 740px;
   }
-  #filter .content__filter .form-select {
-    padding: 5px 0;
-  }
-  #filter .content__filter .form-select select {
-    width: 320px;
-  }
-  #birthdays .content__birthdays {
-    display: grid;
+  #partners .content__partners {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
   }
 }
 @media only screen and (max-width: 992px) {
@@ -152,26 +144,11 @@
   .container .header__content--bottom .content__bottom--right button {
     padding: 20px 110px;
   }
-  #filter .content__filter {
-    flex-direction: column;
+  #partners h1 {
+    font-size: 30px;
   }
-  #filter .content__filter .events__select {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-  #filter .content__filter .events__select:last-child {
-    margin-bottom: 0;
-  }
-  #birthdays .content__birthdays {
-    display: none;
-  }
-  #birthdays .mobile__content .content__photo {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  #birthdays .mobile__content .content__photo .birt__theree--img img {
-    max-width: 110px;
-    height: 110px;
+  #partners .content__partners {
+    grid-template-columns: repeat(1, 1fr);
   }
   #footer .footer__content .footer__content--bottom {
     flex-direction: column;
@@ -191,4 +168,4 @@
   #footer .footer__content .footer__content--bottom ul li:last-child {
     margin-bottom: 0;
   }
-}/*# sourceMappingURL=adaptive-gallery.css.map */
+}/*# sourceMappingURL=adaptive-partners.css.map */
